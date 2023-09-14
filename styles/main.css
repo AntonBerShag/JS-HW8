@@ -1,0 +1,30 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #333;
+}
+
+#game-container {
+    width: 300px;
+    height: 300px;
+    border: 2px solid #333;
+    margin: 0 auto;
+    position: relative;
+}
+
+#bug {
+    width: 30px; /* Ширина изображения */
+    height: 30px; /* Высота изображения */
+    position: absolute;
+    cursor: pointer;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
